@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="utf-8">
+    <!-- <base href="/"> -->
+    <title>present G</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width initial-scale=1, maximum-scale=1">
+    <!-- Template Basic Images Start -->
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="icon" href="img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+    <!-- Template Basic Images End -->
+    <!-- Custom Browsers Color Start -->
+    <meta name="theme-color" content="#000">
+    <!-- Custom Browsers Color End -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="full-screen">
+    <div class="loader__wrap">
+        <div class="loader__box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+                <g class="logo__g loader__g">
+                    <rect x="0" y="0" width="100%" height="100%" fill="transparent" class="logo__border loader__border"></rect>
+                </g>
+            </svg>
+            <div class="logo__text loader__text">G</div>
+        </div>
+    </div>
+    <header class="page-header">
+        <div class="page-cell">
+            <div class="page-header__flex">
+                <div class="logo header-logo">
+                    <a href="#" class="logo__link header-logo__link">
+                        <div class="logo__svg header-logo__svg">
+                            <div class="logo__wrap header-logo__wrap">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+                                    <g class="logo__g">
+                                        <rect x="0" y="0" width="100%" height="100%" fill="transparent" class="logo__border"></rect>
+                                    </g>
+                                </svg>
+                                <div class="logo__text">G</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <nav class="main-menu">
+                    <ul class="main-menu__list">
+                        <li class="main-menu__item active"><a href="#first" data-scroll="2id" class="main-menu__link">Головна</a></li>
+                        <li class="main-menu__item"><a href="#about" data-scroll="2id" class="main-menu__link">Про Мене</a></li>
+                        <li class="main-menu__item"><a href="#lang" data-scroll="2id" class="main-menu__link">Навички</a></li>
+                        <li class="main-menu__item"><a href="#tools" data-scroll="2id" class="main-menu__link">Інструменти</a></li>
+                        <li class="main-menu__item"><a href="#cert" data-scroll="2id" class="main-menu__link">Сертифікати</a></li>
+                        <li class="main-menu__item"><a href="#contact" data-scroll="2id" class="main-menu__link">Контакти</a></li>
+                    </ul>
+                </nav>
+                <div class="hamburger hamburger--emphatic">
+                    <div class="hamburger-box">
+                        <div class="hamburger-inner"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="section first-section d-flex align-items-center" id="first">
+        <div class="container">
+            <div class="row position-relative">
+                <div class="col-lg-6 d-flex align-items-center">
+                    <div class="first-section__wrap">
+                        <h2 class="first-section__headline">Сайт <span class="span--accent">моїх</span> можливостей</h2>
+                        <a href="#form-modal" class="page-button page-button--alt first-section__button" id="contactBtn">Відгукнутися</a href="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="form-modal" class="mfp-hide white-popup-block">
+            <div class="form-modal__wrap">
+                <p><a class="popup-modal-dismiss" href="#"></a></p>
+                <form class="main-form" action="https://formspree.io/gruschinsky7@gmail.com" method="POST">
+                    <!-- Hidden Required Fields -->
+                    <input type="hidden" name="project_name" value="present G">
+                    <input type="hidden" name="admin_email" value="admin@present-g.site">
+                    <input type="hidden" name="form_subject" value="Відповідь з сайту">
+                    <!-- END Hidden Required Fields -->
+                    <div class="main-form__row mt-n4">
+                        <input class="main-form__item main-form__name" type="text" name="Name" placeholder="Ваше ім'я" required>
+                        <input class="main-form__item main-form__tel" type="tel" name="Tel" placeholder="Ваш телефон">
+                    </div>
+                    <div class="main-form__row">
+                        <input class="main-form__item main-form__email" type="email" name="Email" placeholder="Ваш Email" required>
+                    </div>
+                    <div class="main-form__row">
+                        <textarea class="main-form__item main-form__text" name="Message" cols="10" rows="5"></textarea>
+                    </div>
+                    <button class="page-button page-button--alt main-form__button">Відправити</button>
+                </form>
+            </div>
+        </div>
+        <div class="mouse">
+            <a href="#about" data-scroll="2id" class="mouse__icon">
+                <div class="mouse__wheel"></div>
+            </a>
+        </div>
+    </section>
+    <section class="section section-about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 ta-c">
+                    <h2 class="page-headline page-headline--after wow fadeIn" data-wow-duration="2s" data-wow-delay="0.3s">Про Мене</h2>
+                </div>
+                <div class="col-lg-6 ta-c d-flex align-items-center">
+                    <div class="user wow zoomIn" data-wow-duration="2s" data-wow-delay="0.3s">
+                        <img src="img/res_3.jpg" alt="ABOUT ME" class="user__img">
+                        <div class="overlay d-flex justify-content-center align-items-end">
+                            <div class="social">
+                                <a href="https://github.com/present-G" target="_blank" class="social__link">
+                                    <div class="social__item social__item--overlay" style="background-image: url('img/github.svg');"></div>
+                                </a>
+                                <a href="viber://add?number=380932706821" class="social__link">
+                                    <div class="social__item social__item--overlay" style="background-image: url('img/viber.svg');"></div>
+                                </a>
+                                <a href="tg://resolve?domain=present_G" class="social__link">
+                                    <div class="social__item social__item--overlay" style="background-image: url('img/telegram.svg');"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <p class="section-about__text wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.3s">Радий вітати!<br>
+                        Мене звати <strong>Юрій Грущинський</strong>, - я веб-розробник.
+                        Маю досвід створення проектів (front-end). Чудово розумію HTML та CSS, використовую jQuery, наразі працюю над поглибленим вивченням javaScript.</p>
+                    <p class="section-about__text wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.6s">Працюючи, завжди спираюся на три головні аксіоми:<br>
+                        <strong>Продуктивність</strong> - сайт має блискавично взаємодіяти з клієнтом.<br>
+                        <strong>Адаптивність</strong> - не важливо це 24 дюймовий екран чи телефон - сайт має коректно відображатись на всіх девайсах.<br>
+                        <strong>Кросбраузерність</strong> - однакове відображення в будь-яких браузерах і на будь-яких пристроях. </p>
+                    <p class="section-about__text wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.9s">Щодо цього сайту він є прикладом. Він працює, використовуючи jQuery, але найближчим часом я хочу перенести його на чистий javaScript.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section--dark section-lang" id="lang">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 ta-c">
+                    <h2 class="page-headline page-headline--after page-headline--alt wow fadeIn" data-wow-duration="2s" data-wow-delay="0.3s">Навички</h2>
+                </div>
+                <div class="col-md-4">
+                    <div class="chart">
+                        <h4 class="chart__headline wow fadeIn" data-wow-duration="2s" data-wow-delay="0.3s">HTML</h4>
+                        <div class="chart__bg wow fadIn" data-wow-duration="2s" data-wow-delay="0.3s">
+                            <div class="chart__progress wow chartProgress" data-wow-duration="1s" data-wow-delay="0.7s" style="width:75%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="chart">
+                        <h4 class="chart__headline wow fadeIn" data-wow-duration="2s" data-wow-delay="0.3s">CSS</h4>
+                        <div class="chart__bg wow fadIn" data-wow-duration="2s" data-wow-delay="0.3s">
+                            <div class="chart__progress wow chartProgress" data-wow-duration="1s" data-wow-delay="0.7s" style="width:85%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="chart">
+                        <h4 class="chart__headline wow fadeIn" data-wow-duration="2s" data-wow-delay="0.3s">javaScript</h4>
+                        <div class="chart__bg wow fadIn" data-wow-duration="2s" data-wow-delay="0.3s">
+                            <div class="chart__progress wow chartProgress" data-wow-duration="1s" data-wow-delay="0.7s" style="width:50%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class=" col-md-6">
+                    <div class="works__item wow fadeIn" data-wow-duration="2s" data-wow-delay="0.3s">
+                        <img class="works__img" src="example/item_1/dist/screen.jpg" alt="">
+                        <div class="overlay works__overlay">
+                            <a href="https://github.com/present-G/example_1" target="_blank" class="works__link">GitHub</a>
+                            <a href="example/item_1/dist/index.html" class="works__link" target="_blank">Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-md-6">
+                    <div class="works__item wow fadeIn" data-wow-duration="2s" data-wow-delay="0.3s">
+                        <img class="works__img" src="example/item_2/dist/screen.jpg" alt="">
+                        <div class="overlay works__overlay">
+                            <a href="https://github.com/present-G/example_2" target="_blank" class="works__link">GitHub</a>
+                            <a href="example/item_2/dist/index.html" class="works__link" target="_blank">Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-md-6">
+                    <div class="works__item wow fadeIn" data-wow-duration="2s" data-wow-delay="0.3s">
+                        <img class="works__img" src="example/item_3/dist/screen.jpg" alt="">
+                        <div class="overlay works__overlay">
+                            <a href="https://github.com/present-G/example_3" target="_blank" class="works__link">GitHub</a>
+                            <a href="example/item_3/dist/index.html" class="works__link" target="_blank">Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-md-6">
+                    <div class="works__item wow fadeIn" data-wow-duration="2s" data-wow-delay="0.3s">
+                        <img class="works__img" src="example/item_4/dist/screen.jpg" alt="">
+                        <div class="overlay works__overlay">
+                            <a href="https://github.com/present-G/example_4" target="_blank" class="works__link">GitHub</a>
+                            <a href="example/item_4/dist/index.html" class="works__link" target="_blank">Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-tools" id="tools">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 ta-c">
+                    <h2 class="page-headline page-headline--after wow fadeIn" data-wow-duration="2s" data-wow-delay="0.3s">Інструменти</h2>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-center">
+                    <div class="tools d-flex align-items-center">
+                        <img src="img/avocode_alt.svg" alt="Gulp" class="tools__img wow bounceIn" data-wow-duration="2s" data-wow-delay="0.3s">
+                        <div class="tools__wrap wow fadeIn" data-wow-duration="2s" data-wow-delay="0.3s">
+                            <p class="tools__text"><a class="tools__link" target="_blank" href="https://avocode.com/">Avocode</a> - кросбраузерний “скальпель” для отримання інформації з макетів у форматі .psd, .xd, .sketch.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-center">
+                    <div class="tools d-flex align-items-center">
+                        <img src="img/gulp.svg" alt="Gulp" class="tools__img wow bounceIn" data-wow-duration="2s" data-wow-delay="0.3s">
+                        <div class="tools__wrap wow fadeIn" data-wow-duration="2s" data-wow-delay="0.3s">
+                            <p class="tools__text"><a class="tools__link" target="_blank" href="https://gulpjs.com">Gulp.js</a> - зручний, надійний та дуже швидкий таск менеджер для збірки проектів написаний на javaScript.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-center">
+                    <div class="tools d-flex align-items-center">
+                        <img src="img/sass.svg" alt="Saas" class="tools__img wow bounceIn" data-wow-duration="2s" data-wow-delay="0.3s">
+                        <div class="tools__wrap wow fadeIn" data-wow-duration="2s" data-wow-delay="0.3s">
+                            <p class="tools__text"><a class="tools__link" target="_blank" href="https://sass-lang.com">Saas</a> - препроцесор для CSS, що дозволяє оптимізувати розробку і додати нових потужних інстументів.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-center">
+                    <div class="tools d-flex align-items-center">
+                        <img src="img/browsersync.svg" alt="BrowserSync" class="tools__img wow bounceIn" data-wow-duration="2s" data-wow-delay="0.3s">
+                        <div class="tools__wrap wow fadeIn" data-wow-duration="2s" data-wow-delay="0.3s">
+                            <p class="tools__text"><a class="tools__link" target="_blank" href="https://www.browsersync.io">BrowserSync</a> - інструмент для синхронізації змін між проектом і браузером з елементами магії;)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-center">
+                    <div class="tools d-flex align-items-center">
+                        <img src="img/bootstrap.svg" alt="Bootstrap" class="tools__img tools__bootstrap wow bounceIn" data-wow-duration="2s" data-wow-delay="0.3s">
+                        <div class="tools__wrap wow fadeIn" data-wow-duration="2s" data-wow-delay="0.3s">
+                            <p class="tools__text"><a class="tools__link" target="_blank" href="https://getbootstrap.com">Bootstrap</a> - css-фреймворк, що дозволяє значно пришвидшити створення сайту. Зазвичай використовую лише сітку.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-center">
+                    <div class="tools d-flex align-items-center">
+                        <img src="img/git.svg" alt="Git" class="tools__img wow bounceIn" data-wow-duration="2s" data-wow-delay="0.3s">
+                        <div class="tools__wrap wow fadeIn" data-wow-duration="2s" data-wow-delay="0.3s">
+                            <p class="tools__text"><a class="tools__link" target="_blank" href="https://git-scm.com/">Git</a> - система контролю версій, що дозволяє не тільки контролювати зміни проекту, а і обмінюватися ними.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section--dark section-certification" id="cert">
+        <div class="page-cell">
+            <div class="section-certification__wrap ta-c">
+                <h2 class="page-headline page-headline--alt page-headline--after wow fadeIn" data-wow-duration="2s" data-wow-delay="0.3s">Сертифікати</h2>
+            </div>
+            <div class="slider owl-carousel">
+                <div class="slider__item wow fadeIn" data-wow-duration="2s" data-wow-delay="0.3s"><a href="https://www.sololearn.com/Certificate/1014-13332481/pdf/" target="_blank" class="slider__link"><img src="img/cert_html.jpg" alt="HTML" class="slider__img"></a></div>
+                <div class="slider__item wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s"><a href="https://www.sololearn.com/Certificate/1023-13332481/pdf/" target="_blank" class="slider__link"><img src="img/cert_css.jpg" alt="CSS" class="slider__img"></a></div>
+                <div class="slider__item wow fadeIn" data-wow-duration="2s" data-wow-delay="0.9s"><a href="https://www.sololearn.com/Certificate/1024-13332481/pdf/" target="_blank" class="slider__link"><img src="img/cert_js.jpg" alt="JS" class="slider__img"></a></div>
+                <div class="slider__item wow fadeIn" data-wow-duration="2s" data-wow-delay="0.3s"><a href="https://www.sololearn.com/Certificate/1082-13332481/pdf/" target="_blank" class="slider__link"><img src="img/cert_jquery.jpg" alt="JQUERY" class="slider__img"></a></div>
+                <div class="slider__item wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s"><a href="https://www.sololearn.com/Certificate/1059-13332481/pdf/" target="_blank" class="slider__link"><img src="img/cert_php.jpg" alt="PHP" class="slider__img"></a></div>
+                <div class="slider__item wow fadeIn" data-wow-duration="2s" data-wow-delay="0.9s"><a href="https://www.sololearn.com/Certificate/1060-13332481/pdf/" target="_blank" class="slider__link"><img src="img/cert_sql.jpg" alt="SQL" class="slider__img"></a></div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 ta-c">
+                    <h2 class="page-headline page-headline--after wow fadeIn" data-wow-duration="2s" data-wow-delay="0.3s">Контакти</h2>
+                </div>
+                <div class="col-md-6">
+                    <form class="main-form" action="https://formspree.io/gruschinsky7@gmail.com" method="POST">
+                        <!-- Hidden Required Fields -->
+                        <input type="hidden" name="project_name" value="present G">
+                        <input type="hidden" name="admin_email" value="admin@present-g.site">
+                        <input type="hidden" name="form_subject" value="Відповідь з сайту">
+                        <!-- END Hidden Required Fields -->
+                        <div class="main-form__row mt-n4">
+                            <input class="main-form__item main-form__name wow fadeIn" data-wow-duration="2s" data-wow-delay="0.3s" type="text" name="Name" placeholder="Ваше ім'я" required>
+                            <input class="main-form__item main-form__tel wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s" type="tel" name="Tel" placeholder="Ваш телефон">
+                        </div>
+                        <div class="main-form__row">
+                            <input class="main-form__item main-form__email wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" type="email" name="Email" placeholder="Ваш Email" required>
+                        </div>
+                        <div class="main-form__row">
+                            <textarea class="main-form__item main-form__text wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s" name="Message" cols="30" rows="10"></textarea>
+                        </div>
+                        <button class="page-button page-button--alt main-form__button wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s">Відправити</button>
+                    </form>
+                </div>
+                <div class="col-md-6 d-flex">
+                    <div class="contact-info wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.3s">
+                        <a href="tel:+380932706821" class="contact-info__link">+38 (093) 270-68-21</a>
+                        <a href="mailto:gruschinsky7@gmail.com" class="contact-info__link">gruschinsky7@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="page-footer section--dark">
+        <div class="page-cell">
+            <div class="page-footer__flex">
+                <div class="page-footer__item wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+                    2019 | <div class="logo footer-logo">
+                        <a href="#" class="logo__link footer-logo__link">
+                            <div class="logo__svg footer-logo__svg">
+                                <div class="logo__wrap footer-logo__wrap">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+                                        <g class="logo__g footer-logo__g">
+                                            <rect x="0" y="0" width="100%" height="100%" fill="transparent" class="logo__border footer-logo__border"></rect>
+                                        </g>
+                                    </svg>
+                                    <div class="logo__text footer-logo__text">G</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="social page-footer__item wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s">
+                    <a href="https://github.com/present-G" target="_blank" class="social__link">
+                        <div class="social__item" style="background-image: url('img/github.svg');"></div>
+                    </a>
+                    <a href="viber://add?number=380932706821" class="social__link">
+                        <div class="social__item" style="background-image: url('img/viber.svg');"></div>
+                    </a>
+                    <a href="tg://resolve?domain=present_G" class="social__link">
+                        <div class="social__item" style="background-image: url('img/telegram.svg');"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>

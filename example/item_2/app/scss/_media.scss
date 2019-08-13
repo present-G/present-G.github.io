@@ -1,0 +1,186 @@
+@import "vars";
+
+
+@media screen and (max-width: 1500px) {
+	.section-about {
+		&__content {
+			margin-right: 1rem;
+		}
+	}
+	.section-client {
+		padding-right: 5rem;
+		padding-left: 5rem;
+	}
+
+}
+
+@media screen and (max-width: 1313px) {
+	.section-portfolio {
+		&__flex {
+			flex-direction: column;
+		}
+		&__grid {
+			max-width: 92%;
+			margin-top: 2rem;
+			margin-bottom: 2rem;
+		}
+	}
+}
+
+@media screen and (max-width: 1300px) {
+	.section-about {
+		padding-bottom: 0;
+		&__flex {
+			flex-direction: column;
+			&:after {
+				display: none;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1232px) {
+	.section-blog {
+		&__head {
+			max-width: 470px;
+			position: static;
+			transform: none;
+			margin: 0 auto;
+			margin-bottom: 2rem;
+			margin-top: 0;
+			min-height: unset;
+		}
+		&__item {
+			box-shadow: inset 0 0 5rem 0.125rem
+		}
+		.owl {
+			&-stage {
+				.center {
+					margin-top: 0;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1040px) {
+	.page-footer {
+		&__wrap {
+			padding-right: 2rem;
+			padding-left: 2rem;
+		}
+	}
+}
+
+@media screen and (max-width: 950px) {
+	.section-portfolio {
+		&__grid {
+			max-width: 100%;
+		}
+	}
+}
+
+@media screen and (max-width: 874px) {
+	.section-portfolio {
+		&__item {
+			display: inline-block;
+			max-width: 50%;
+			float: none;
+		}
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.section-about {
+		&__content {
+			margin: 0 auto;
+		}
+	}
+}
+
+@media screen and (max-width: 799px) {
+	.section-portfolio {
+		padding-top: 0;
+		&__flex {
+			display: block;
+		}
+		&__block {
+			display: block;
+			margin-right: 0;
+		}
+		&__text {
+			max-width: unset;
+		}
+		&__item {
+			max-width: 80%;
+		}
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+
+	.section-client {
+		padding-right: 1rem;
+		padding-left: 1rem;
+	}
+
+	.page-header {
+		background-position-x: 70%;
+	}
+
+	.logo {
+		display: block;
+		text-align: center;
+	}
+	.main-menu {
+		&__list {
+			justify-content: center;
+			margin: 1rem 0;
+		}
+	}
+	.social {
+		&__wrap {
+			width: 100%;
+			margin: 0;
+		}
+	}
+	.cube {
+		&__header {
+			display: none;
+		}
+	}
+}
+
+
+
+@media screen and (max-width: 650px) {
+	.section-blog {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
+
+
+
+@media screen and (max-width: 400px) {
+	
+	.main-menu {
+		&__item {
+			margin-right: 0;
+		}
+	}
+
+	.social {
+		&__wrap {
+			justify-content: flex-end;		
+		}
+	}
+}
+
+
+@media screen and (max-width: 340px) {
+	.page-button {
+		padding: 0.576rem 1.927rem;
+	}
+}
