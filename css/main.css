@@ -13384,6 +13384,10 @@ strong
 .main-form__text
 {
     font-family: 'Roboto', sans-serif;
+
+    max-height: 262px;
+
+    resize: none;
 }
 
 .main-form__button
@@ -13400,6 +13404,11 @@ strong
     width: 80%;
     max-width: 35rem;
     margin: 7rem auto 0 auto;
+}
+
+.form-modal__text
+{
+    max-height: 151px;
 }
 
 .popup-modal-dismiss
@@ -13724,17 +13733,6 @@ strong
     color: #fefefe;
 }
 
-@media screen and (max-width: 991px)
-{
-    .fix-form__wrap
-    {
-        background-color: rgba(10, 10, 10, .7);
-
-        -webkit-backdrop-filter: blur(2px);
-                backdrop-filter: blur(2px);
-    }
-}
-
 @media screen and (max-width: 900px)
 {
     .header-logo
@@ -13830,6 +13828,14 @@ strong
                 transform: translateX(0);
 
         opacity: 1;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .main-form__item
+    {
+        padding: 1rem .5rem 1rem 1.5rem;
     }
 }
 
